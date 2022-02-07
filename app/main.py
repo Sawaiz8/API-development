@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .routers import post, user, authentication #import files
+from .routers import post, user, authentication
 
 app = FastAPI()
 
